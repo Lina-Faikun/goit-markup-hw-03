@@ -1,4 +1,4 @@
-/ egion   basics */
+/* #region   basics */
 body{
     font-family: "Roboto" ,sans-serif  ;
     color: #434455;
@@ -42,6 +42,7 @@ body{
          padding: 0 15px;
          margin: 0 auto;
  }
+ /* #endregion   basics */
  /* #region header */
  .page-header {
          border-bottom: 1px solid #e7e9fc;
@@ -117,8 +118,9 @@ color: #404bbf;
  /* #endregion header */
 
 /* #region hero */
+
+
 .hero {
-        background-color: #2e2f42;
         background-color: #2e2f42;
         padding-top: 188px;
         padding-bottom: 188px;
@@ -126,7 +128,9 @@ color: #404bbf;
 }
 
 .hero-title {
-         background-color: #2e2f42;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -134,23 +138,26 @@ color: #404bbf;
         padding-bottom: 48px;
         margin-left: auto;
         margin-right: auto;
-        max-width: 496px;
+       max-width: 496px;
 }
 
 .hero-button {
 
-      background-color: #2e2f42;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
         background-color: #4d5ae5;
         margin-left: auto;
         margin-right: auto;
         align-items: center;
-
         display: block;
         min-width: 169px;
         height: 56px;
         border: none;
         border-radius: 4px;
-
+        cursor: pointer;
 
 }
 
@@ -160,15 +167,16 @@ color: #404bbf;
         background-color: #404bbf;
 }
 
+
+
+
 /* #endregion hero */
 
 .services{
         padding-top: 120px ;
         padding-bottom: 120px ;
-        padding-right: 156px;
-        padding-left: 156px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 156px;
+        margin-right: 156px;
 }
 
 .services-list{
@@ -211,7 +219,7 @@ color: #404bbf;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -278,9 +286,7 @@ color: #404bbf;
         width: calc((100% - 48px) / 3);
 }
 
-.portfolio-item:nth-child(3n) {
-        margin-right: 0;
-}
+
 
 .portfolio-content {
         padding: 32px 16px;
