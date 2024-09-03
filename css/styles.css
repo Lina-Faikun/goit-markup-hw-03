@@ -24,18 +24,7 @@ body{
         display:block;
  }
  
-.visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        clip-path: inset(100%);
-}
+
  .container {
          max-width: 1158px;
          padding: 0 15px;
@@ -44,7 +33,7 @@ body{
  /* #endregion   basics */
  /* #region header */
  .page-header {
-         border-bottom: 1px solid #6d76ca;
+        border-bottom: 1px solid #e7e9fc;
  }
 .header-container{
  display: flex;
@@ -176,6 +165,19 @@ color: #404bbf;
         padding-bottom: 120px ;
         margin-left: 156px;
         margin-right: 156px;
+}
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 .services-list{
