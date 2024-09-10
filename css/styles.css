@@ -1,4 +1,9 @@
 /* #region   basics */
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
 body{
     font-family: "Roboto" ,sans-serif  ;
     color: #434455;
@@ -110,7 +115,7 @@ color: #404bbf;
 
 .hero {
         background-color: #2e2f42;
-         padding: 0;
+         padding: 188px 0;
         display: flex;
         align-items: center;
          justify-content: center;
@@ -133,7 +138,7 @@ color: #404bbf;
 
 .hero-button {
 
-font-weight: 500;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
@@ -142,9 +147,8 @@ font-weight: 500;
         display: block;
         min-width: 169px;
         height: 56px;
-        border: none;
         border-radius: 4px;
-        cursor: pointer;
+        border: none;
         margin: 0 auto;
 
 }
@@ -161,7 +165,7 @@ font-weight: 500;
 /* #endregion hero */
 
 .services{
-        padding: 60px 0;
+        padding: 120px 0;
                 /* Внутрішні відступи зверху і знизу */
          margin: 0 156px;
                 /* Правильний відступ від країв для контенту */
@@ -174,7 +178,6 @@ font-weight: 500;
         margin: -1px;
         border: 0;
         padding: 0;
-
         white-space: nowrap;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
@@ -182,12 +185,15 @@ font-weight: 500;
 }
 
 .services-list{
-        gap:24px;
+        
         display: flex;
+        gap: 24px;
         
 
 }
- 
+ .services-item {
+         width: calc((100% - 72px) / 4);
+ }
 .services-title{
     
         font-weight: 500;
@@ -197,9 +203,7 @@ font-weight: 500;
         color: #2e2f42;
         margin-bottom: 8px;
 }
-.services-item{
-        width: calc((100% - 72px) / 4);
-}
+
 .services-text{
         font-weight: 400;
         font-size: 16px;
