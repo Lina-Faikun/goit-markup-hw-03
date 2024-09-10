@@ -110,42 +110,42 @@ color: #404bbf;
 
 .hero {
         background-color: #2e2f42;
-        padding-top: 188px;
-        padding-bottom: 188px;
+         padding: 0;
+        display: flex;
+        align-items: center;
+         justify-content: center;
+        height:100vh;
+        
 
 }
 
 .hero-title {
+        
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        padding-top: 188px;
-        padding-bottom: 48px;
-        margin-left: auto;
-        margin-right: auto;
-       max-width: 496px;
+        max-width: 496px;
+         margin-bottom: 48px;
 }
 
 .hero-button {
 
-        font-weight: 500;
+font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
         background-color: #4d5ae5;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
         display: block;
         min-width: 169px;
         height: 56px;
         border: none;
         border-radius: 4px;
         cursor: pointer;
+        margin: 0 auto;
 
 }
 
@@ -161,10 +161,11 @@ color: #404bbf;
 /* #endregion hero */
 
 .services{
-        padding-top: 120px ;
-        padding-bottom: 120px ;
-        margin-left: 156px;
-        margin-right: 156px;
+        padding: 60px 0;
+                /* Внутрішні відступи зверху і знизу */
+         margin: 0 156px;
+                /* Правильний відступ від країв для контенту */
+        
 }
 .visually-hidden {
         position: absolute;
@@ -237,7 +238,7 @@ color: #404bbf;
 }
 
 .team-info {
-    padding: 32px 0;
+    padding: 16px 0;
 }
 
 .team-name-title {
@@ -247,8 +248,8 @@ color: #404bbf;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 32px;
-    margin-bottom: 8px;
+    padding-top: 16px;
+    margin-bottom: 4px;
 }
 
 .team-text {
@@ -290,7 +291,7 @@ color: #404bbf;
 
 
 .portfolio-content {
-        padding: 32px 16px;
+        padding: 16px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
 }
