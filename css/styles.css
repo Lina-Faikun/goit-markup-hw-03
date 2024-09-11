@@ -4,76 +4,97 @@
         padding: 0;
         box-sizing: border-box;
 }
-body{
-    font-family: "Roboto" ,sans-serif  ;
-    color: #434455;
-    background-color: #fff;
+
+body {
+        font-family: "Roboto", sans-serif;
+        color: #434455;
+        background-color: #fff;
 
 }
- ul,ol{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
- }
- h1, h2, h3, h4, h5, h6, p{
+
+ul,
+ol {
+        list-style-type: none;
         margin: 0;
- }
- a{
-    text-decoration: none;
- }
- button{
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
- }
- img{
-        display:block;
- }
- 
-
- .container {
-         max-width: 1158px;
-         padding: 0 15px;
-         margin: 0 auto;
- }
- /* #endregion   basics */
- /* #region header */
- .page-header {
-        border-bottom: 1px solid #e7e9fc;
- }
-.header-container{
- display: flex;
- align-items: center;
+        padding: 0;
 }
-.header-nav{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+        margin: 0;
+}
+
+a {
+        text-decoration: none;
+}
+
+button {
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+}
+
+img {
+        display: block;
+}
+
+
+.container {
+        max-width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+}
+
+/* #endregion   basics */
+/* #region header */
+.page-header {
+        border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
         display: flex;
         align-items: center;
 }
- 
- .logo{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
- }
- .header-logo .logo-span{
-    color: #2e2f42;}
- .header-logo{
+
+.header-nav {
+        display: flex;
+        align-items: center;
+}
+
+.logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.header-logo .logo-span {
+        color: #2e2f42;
+}
+
+.header-logo {
         padding: 24px 0;
         margin-right: 76px;
 }
- 
- .nav-list{
-        display:flex;
+
+.nav-list {
+        display: flex;
         align-items: center;
-        gap:40px;
- }
- .footer-logo .logo-span{
-    color: #f4f4fd;
- }
- .nav-link{
+        gap: 40px;
+}
+
+.footer-logo .logo-span {
+        color: #f4f4fd;
+}
+
+.nav-link {
         display: block;
         padding: 24px 0;
         font-weight: 500;
@@ -81,51 +102,50 @@ body{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
- }
- 
- .contacts{
-    font-style:normal;
-    margin-left: auto;
- }
- .contacts-list{
+}
+
+.contacts {
+        font-style: normal;
+        margin-left: auto;
+}
+
+.contacts-list {
         display: flex;
         align-items: center;
         gap: 40px;
- }
- .contacts-link{
+}
+
+.contacts-link {
         display: block;
         padding: 24px 0;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
- }
+}
 
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus{
-color: #404bbf;
+.contacts-link:focus {
+        color: #404bbf;
 }
 
- /* #endregion header */
+/* #endregion header */
 
 /* #region hero */
 
 
 .hero {
         background-color: #2e2f42;
-         padding: 188px 0;
+        padding: 188px 0;
         display: flex;
         align-items: center;
-         justify-content: center;
-        height:100vh;
-        
-
+        justify-content: center;
 }
 
 .hero-title {
-        
+
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -133,7 +153,7 @@ color: #404bbf;
         text-align: center;
         color: #fff;
         max-width: 496px;
-         margin-bottom: 48px;
+        margin-bottom: 48px;
 }
 
 .hero-button {
@@ -164,13 +184,10 @@ color: #404bbf;
 
 /* #endregion hero */
 
-.services{
+.services {
         padding: 120px 0;
-                /* Внутрішні відступи зверху і знизу */
-         margin: 0 156px;
-                /* Правильний відступ від країв для контенту */
-        
 }
+
 .visually-hidden {
         position: absolute;
         width: 1px;
@@ -184,18 +201,20 @@ color: #404bbf;
         overflow: hidden;
 }
 
-.services-list{
-        
+.services-list {
+
         display: flex;
         gap: 24px;
-        
+
 
 }
- .services-item {
-         width: calc((100% - 72px) / 4);
- }
-.services-title{
-    
+
+.services-item {
+        width: calc((100% - 72px) / 4);
+}
+
+.services-title {
+
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -204,7 +223,7 @@ color: #404bbf;
         margin-bottom: 8px;
 }
 
-.services-text{
+.services-text {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -213,55 +232,54 @@ color: #404bbf;
 }
 
 .team-list-section {
-    background-color: #f4f4fd;
-    padding: 120px 0;
+        background-color: #f4f4fd;
+        padding: 120px 0;
 }
 
 .team-main-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-    margin-bottom: 72px;
-    
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;
+        margin-bottom: 72px;
+
 }
 
 .team-list {
-    display: flex;
-    gap: 24px;
+        display: flex;
+        gap: 24px;
 }
 
 .team-item {
-    background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+        background-color: #FFFFFF;
+        width: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
 }
 
 .team-info {
-    padding: 32px 0;
+        padding: 32px 0;
 }
 
 .team-name-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    padding-top: 16px;
-    margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        padding-bottom: 8px;
 }
 
 .team-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
 }
 
 
@@ -317,18 +335,20 @@ color: #404bbf;
         padding-bottom: 32px;
 }
 
-.page-footer{
-    
-     background-color: #2e2f42;
-     padding: 100px 0;
-     
-    
+.page-footer {
+
+        background-color: #2e2f42;
+        padding: 100px 0;
+
+
 }
-.footer-logo{
+
+.footer-logo {
         display: inline-block;
         margin-bottom: 16px;
 }
-.footer-text{
+
+.footer-text {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
