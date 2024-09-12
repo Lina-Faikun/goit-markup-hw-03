@@ -270,7 +270,7 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 }
 
 .team-text {
@@ -323,7 +323,7 @@ img {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        margin-bottom: 8px;
+         margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -332,7 +332,7 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding-bottom: 32px;
+        
 }
 
 .page-footer {
